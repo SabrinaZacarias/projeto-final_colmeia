@@ -1,0 +1,104 @@
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+
+
+.contato--section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 250, 250, 0.685);
+  width: 90vw;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+#loguinho-contato{
+  width:1.9rem;
+  height: 1.5rem;
+}
+
+.contato--section h2{
+  font-size: 1.8rem;
+}
+.campo--contato{
+  padding: 0.5rem;
+  width: 60vw;
+  margin: 0 0 0.5rem 0;
+}
+
+.textarea--contato{
+  padding: 0.5rem;
+  width: 55vw;
+  margin: 0 0 0.5rem 0;
+  border-radius: 5px;
+  border: none;
+}
+.textarea--contato:focus {
+  outline: none;
+  border-color: #fda61d;
+  box-shadow: 0 0 10px #fda61d;
+}
+
+#botao-contato{
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .contato {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .contato--section{
+    margin: 2.5rem 0 0.5rem;
+    padding: 0;
+    background-color: rgba(255, 250, 250, 0.685);
+    width: 50vw;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #loguinho-contato{
+    width:2.2rem;
+    height: 1.8rem;
+  }
+
+  .contato--section h2{
+    font-size: 2.1rem;
+  }
+    
+  .campo--contato{
+    padding: 0.5rem;
+    width: 35vw;
+    margin: 0 0 0.5rem 0;
+  }
+  .textarea--contato{
+    padding: 0.5rem;
+    width: 97%;
+    margin: 0 0 0.5rem 0;
+    border-radius: 5px;
+    border: none;
+  }
+  .textarea--contato:focus {
+    outline: none;
+    border-color: #fda61d;
+    box-shadow: 0 0 10px #fda61d;
+  }
+  #botao-contato{
+    text-align: center;
+  }
+  
+}

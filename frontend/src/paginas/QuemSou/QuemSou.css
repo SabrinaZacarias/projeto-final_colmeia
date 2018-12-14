@@ -1,0 +1,121 @@
+.quem-sou {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    height: 94vh;
+    
+}
+.quem-sou--section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    background-color: rgba(255, 250, 250, 0.685);
+    width: 80vw;
+    height: 70vh;
+    border-radius: 10px;
+  }
+
+  #loguinho--quem-sou{
+    width:1.8rem;
+    height:1.4rem;
+    }
+  
+  .quem-sou--section h2{
+   
+    font-size: 1.8rem;
+    }
+
+  #colab{
+    background-image: url('./users.png');
+    background-repeat: no-repeat;  
+    background-size: 1.8rem;
+    background-position-y: center;
+    background-position-x: 1rem;
+    text-align: center;
+  }
+  
+  #entidade{
+    background-image: url('./house.png');
+    background-repeat: no-repeat;
+    background-size: 1.8rem;
+    background-position-y: center;
+    background-position-x: 1rem;
+    text-align: center;
+  }
+
+  .botao--quem-sou{
+      background-color: white;
+      color: black;
+      width: 60vw;
+      height: 10vh;
+      border:none;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .quem-sou{display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quem-sou--section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 250, 250, 0.685);
+}
+    button{
+        background-color: white;
+        color: black;
+        width: 20vw;
+        border:none;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .quem-sou {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        
+    }
+    .quem-sou--section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 250, 250, 0.685);
+      width: 35vw;
+      height: 60vh;
+      border-radius: 10px;
+    }
+    #loguinho--quem-sou{
+      width:2.3rem;
+      height:1.8rem;
+      }
+    
+    .quem-sou--section h2{
+     
+      font-size: 2.1rem;
+      margin-bottom: 1rem;
+      }
+
+      .botao--quem-sou{
+        background-color: white;
+        color: black;
+        width: 25vw;
+        height: 7vh;
+        border-radius: 10px;
+        border:none;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+
+  
+  }

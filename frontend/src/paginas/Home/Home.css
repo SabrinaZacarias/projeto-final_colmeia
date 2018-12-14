@@ -1,0 +1,88 @@
+.home {
+  min-height: calc(100vh - 60px);
+  padding: 1.5rem 1rem 0;
+  background-color: #fad61a;
+}
+
+
+@media (min-width: 992px) {
+  .home {
+    padding: 4.5rem 10% 0;
+    background-color: #fad61a;
+    height: 100vh;
+  }
+  #alinhar-imgs{
+    margin-top: 0.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #logo{
+    margin-top: 1rem;
+    width: 30%;
+    height: 15%;
+    padding: 1.5rem;
+    background-color: black;
+    border-radius: 30px;
+
+  }
+
+  #bee{
+    width: 45%;
+    height: 35%;
+  }
+
+  .alinhar-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alinhar-texto h2{
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin:1rem;
+  }
+
+  #arrow{
+    width: 2.7rem;
+    height: 2.6rem;
+  }
+
+  #sobre{
+    padding: 5rem 10% 0;
+    background-image: url('./img/back.png');
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .descricao{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #sobre h3{
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+
+  #icon{
+    width: 1.8rem;
+    height:1.8rem;
+  }
+
+  .descricao p {
+    font-size: 1.5rem;
+  }
+
+  #hexa{
+    height: 30rem;
+    width:33rem;
+  }
+}

@@ -1,0 +1,44 @@
+.trabalhos {
+  padding: 1rem 1rem 0;
+  background-image: url('./background.jpg');
+}
+
+#loguinho{
+  width:1rem;
+  height:0.8rem;
+  }
+
+  h1{
+  text-align: center;
+  font-size: 1rem;
+  }
+
+  
+
+
+@media (min-width: 992px) {
+  .trabalhos {
+      padding: 3.5rem 10% 0;
+      height: 92vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #loguinho{
+  width:2.3rem;
+  height:1.8rem;
+  }
+
+  h2{
+  text-align: center;
+  font-size: 2.1rem;
+  }
+  .imagens{
+    width:25vw;
+    height: 35vh;
+    cursor: pointer;
+  }
+  
+}

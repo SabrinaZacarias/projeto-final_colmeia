@@ -1,0 +1,41 @@
+.footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+
+}
+
+#footer--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+#logo-footer{
+    width:18vw;
+    height: 6vh;
+    
+}
+.icones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 30vw;
+    margin:1rem 0 1rem 0;
+}
+.icones img{
+    width: 3vw;
+    height: 5vh;
+    background-color: #fad61a;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-right: 0.5rem
+}

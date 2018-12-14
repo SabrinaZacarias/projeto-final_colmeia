@@ -1,0 +1,34 @@
+.campo {
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  display: block;
+  width: 70vw;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (min-width:992px){
+
+.campo {
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  display: block;
+  width: 25vw;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.campo:focus {
+  outline: none;
+  border-color: #fda61d;
+  box-shadow: 0 0 10px #fda61d;
+}
+
+.campo__erro {
+  color: red;
+}
+}

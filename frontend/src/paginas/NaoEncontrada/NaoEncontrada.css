@@ -1,0 +1,17 @@
+.nao-encontrada {
+  padding: 1.5rem 1rem 0;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.808);
+}
+
+
+@media (min-width: 992px) {
+  .nao-encontrada {
+      padding: 4rem 10% 0;
+      height: 100vh;
+  }
+  img{
+    width: 40%;
+    height: 70%;
+  }
+}

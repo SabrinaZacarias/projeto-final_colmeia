@@ -1,0 +1,101 @@
+.conta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.conta--section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 250, 250, 0.685);
+  width: 90vw;
+  height: 96vh;
+  border-radius: 10px;
+}
+
+.campo--conta{
+  padding: 0.5rem;
+  width: 65vw;
+  
+}
+#h1-user{
+  
+  font-size: 1.2rem;
+}
+
+#botao-user{
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .conta--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 250, 250, 0.685);
+    width: 50vw;
+    height: 80vh;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  .conta--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 250, 250, 0.685);
+    width: 50vw;
+    height: 80vh;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .campo--conta{
+    padding: 0.5rem;
+    width: 35vw;
+    
+  }
+  #h1-user{
+    
+    font-size: 2rem;
+  }
+  
+  .campo-senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .senha{
+    width: 16.5vw;
+  }
+  #botao-user{
+    text-align: center;
+  }
+  
+  
+}

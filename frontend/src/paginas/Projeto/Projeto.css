@@ -1,0 +1,73 @@
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    background-image:url('./bg.png');
+    height: 95vh;
+}
+
+#logoOng{
+    
+    width: 15vw;
+    height: 22vh;
+    z-index: 1;
+    position: absolute;
+    bottom: 25rem;
+    
+}
+
+.projeto--section{
+    margin-top:2.5rem;
+    height: 60vh;
+    width: 75vw;
+    background-color: #fcff75;
+    border-radius:10px;
+    padding: 3.5rem 5rem 0;
+}
+
+.loguinho{
+    width:1.8rem;
+    height:1.4rem;
+}
+.projeto h3{
+    font-size: 1.5rem;
+}
+
+#dados{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhar{
+    text-align: center;
+}
+
+#botao-projeto{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.button-projeto{
+  color: #fad61a;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  background: black;  
+  border-radius: 15px;
+  text-align: center;
+  width: 25vw;
+  height: 7vh;
+  cursor: pointer;  
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40vw;
+    height:40vh;
+}
