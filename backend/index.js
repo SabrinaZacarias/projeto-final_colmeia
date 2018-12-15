@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 
 var mongoose = require("mongoose");
-mongoose.connect('mongodb://<sabrina>:<m@e101074>@ds115035.mlab.com:15035/integrar');
+mongoose.connect("mongodb://sabrina:users1234@ds115035.mlab.com:15035/integrar");
 
 
 var db = mongoose.connection;
